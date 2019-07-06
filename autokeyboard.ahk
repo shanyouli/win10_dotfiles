@@ -68,3 +68,7 @@ Foobar2kExe := "foobar2000.exe"
 ^#n::EmacsPid := RunOnce(EmacsPath, EmacsExe, EmacsPid)
 
 ^#m::Foobar2kPid := RunOnce(Foobar2kPath, Foobar2kExe, Foobar2kPid)
+
+; CapsLock exchange Lctrl
+CapsLock::LCtrl
+LCtrl::CapsLock
